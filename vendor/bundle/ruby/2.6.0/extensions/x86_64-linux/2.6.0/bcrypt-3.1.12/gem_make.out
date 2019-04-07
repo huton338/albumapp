@@ -1,0 +1,19 @@
+current directory: /mnt/c/work/ruby/workspase/albumapp/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.12/ext/mri
+/home/linuxbrew/.linuxbrew/opt/ruby/bin/ruby -I /home/linuxbrew/.linuxbrew/Cellar/ruby/2.6.2/lib/ruby/2.6.0 -r ./siteconf20190407-30715-1uv1qqu.rb extconf.rb
+creating Makefile
+
+current directory: /mnt/c/work/ruby/workspase/albumapp/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" clean
+
+current directory: /mnt/c/work/ruby/workspase/albumapp/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /mnt/c/work/ruby/workspase/albumapp/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20190407-30715-u19cav

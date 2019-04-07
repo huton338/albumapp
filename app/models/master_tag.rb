@@ -1,0 +1,2 @@
+class MasterTag < ApplicationRecord
+end

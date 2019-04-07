@@ -1,0 +1,24 @@
+h1 ユーザ編集
+
+= link_to 'ユーザー一覧' users_path
+
+= form_with model: @user, local: true do |form|
+    div
+        = form.label :name
+        = form.text_field :name
+    div
+        = form.label :email
+        = form.text_field :email
+    div
+        = form.label :admin
+        = form.check_box :admin
+    div
+        = form.label :password, 'パスワード'
+        = form.password_field :password
+    div
+        = form.label :password_confirmation, 'パスワード(確認)'
+        = form.password_field :password_confirmation
+    div
+        = form.submit '変更'
+
+    =link_to '削除', user_path(@user),method: :delete,data: {confirm:"ユーザー「#{@user.name}」を削除します。よろしいですか？"}
